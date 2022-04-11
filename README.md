@@ -23,7 +23,7 @@ https://www.authorea.com/users/459343/articles/555631-long-read-genome-assemblie
 ### Alignement
 Run nucmer and syri
 
-### Analysis/
+### Analysis
 * contigJoins - for each chromosome of each genome calculatye location of contig joins.
 * genes - All gene related scripts.
 * synteyPlots - Get data and create synteny karyotype plots.
