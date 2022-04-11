@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# After running nucmer we now want to run SyRI and find all
+# syntenic regsion and rearrangements
+
 genome1=""
 genome2=""
 minSimilarity=80

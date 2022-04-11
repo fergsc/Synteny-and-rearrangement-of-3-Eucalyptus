@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# split fasta/q file into a number of smaller fasta/q files
+# The number entered is the number of seq to place in new files. eg. 1 = place 1 sequence in all files
+# this is used as part of parallelise nucmer.
+
+
 [ $# != 2 ] && echo "Must specify: fasta + number of seq per file" && exit 0
 
 fna=$1

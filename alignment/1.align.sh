@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# Perfrom nucmer alignemnt
+# Run on each genome pairing
+
 genome1=""
 genome2=""
 minSimilarity=80

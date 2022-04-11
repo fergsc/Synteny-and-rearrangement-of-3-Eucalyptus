@@ -1,10 +1,13 @@
-# break qury fasta file into seperate fasta files
+#!/bin/bash
+
+# parallelise nucmer jobs.
+
+# break query fasta file into seperate fasta files
 # one file per chromosome
 # built up a list of nucmer jobs and
 # use gnu parallel to run all nucmer jobs in parallel
 
 
-#!/bin/bash
 [ $# < 6 ] && echo "Must specify: fastaRef + fastaQry (this gets split) + identity + length + seq per file + ?filt?" && exit 0
 [ $# == 6 ] && filt=1 || filt=0
 
