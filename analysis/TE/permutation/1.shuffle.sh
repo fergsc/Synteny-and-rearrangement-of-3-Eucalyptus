@@ -4,7 +4,7 @@
 #permutations
 start=1
 end=3000
-checkExtension=20 # how many bp to extend TE regions
+checkExtension=10 # how many bp to extend TE regions
 distBetweenBreaks=200
 
 teDir="/path to TE bed files"
