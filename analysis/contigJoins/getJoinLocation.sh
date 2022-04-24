@@ -20,7 +20,7 @@ do
         do
             bioawk -v C=$c -c fastx '$name == C {print length($seq)}' /path to genomes/${spp}.fasta >> tmp
         done
-        awk '{count = count + $2; print count}' tmp > ${spp}.${chr}.cumsum
+        awk '{count = count + $2; print count}' tmp > ${spp}.${chr}.csv
         rm tmp
     done
 done
