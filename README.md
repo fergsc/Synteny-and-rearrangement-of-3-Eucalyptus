@@ -5,8 +5,8 @@ All genomes were assembled and annoated using https://www.protocols.io/view/plan
 Genomes were then aligned with nucmer (MUMmer), annotated for syntenic regions and rearrangements with SyRI.
 Genomes, genes, transposons, and alignments were processed with the script in this repository.
 
-All work is for the publication: Long-read genome assemblies uncover extensive loss of micro-syntenty and conservation of macro-synteny among three woodland Eucalyptus species.
-https://www.authorea.com/users/459343/articles/555631-long-read-genome-assemblies-uncover-extensive-loss-of-micro-syntenty-and-conservation-of-macro-synteny-among-three-woodland-eucalyptus-species
+All work is for the publication: 
+Ferguson S, Jones A, Murray K, Schwessinger B, & Borevitz J (2023). Interspecies genome divergence is predominantly due to frequent small scale rearrangements in Eucalyptus. Molecular Ecology, 32, 1271–1287. https://doi.org/10.1111/mec.16608
 
 
 ## Tools/programs
